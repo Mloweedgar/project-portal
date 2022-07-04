@@ -15,9 +15,6 @@
 
     <body class="login-page">
     <div class="login-box">
-        <div class="logo">
-            <a href="javascript:void(0);"><img src="{{route("application.logo")}}"></a>
-        </div>
         <div class="card">
             <div class="body">
                 <form  method="POST" action="{{ route('login') }}">
