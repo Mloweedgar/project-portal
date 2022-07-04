@@ -1,0 +1,80 @@
+a.error-popover{
+  color: red;
+}
+
+.popover-title{
+    padding:5px 14px;
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+.menu-ico{
+    font-size: 50px;
+
+}
+
+.general-blue {
+    background-color: #607d8b !important;
+}
+
+.general-yellow {
+    background-color: #f4d35e !important;
+}
+.general-white {
+    background-color: #fff !important;
+}
+
+.main-container {
+    padding: 25px;
+    /*display: flex;*/
+    align-items: center;
+}
+
+
+/*Alerts*/
+
+.alert {
+    position: relative;
+    margin: 0.5rem 0 1rem 0;
+    background-color: #fff;
+    transition: box-shadow .25s;
+    border-radius: 2px;
+}
+
+.red {
+    background-color: #F44336 !important;
+}
+.alert .alert-content {
+    padding: 20px;
+    border-radius: 0 0 2px 2px;
+}
+.white-text {
+    color: #fff !important;
+}
+.alert button {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.table-modal .edit{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.announcement-time {
+    color: #666;
+    font-size: 10px;
+    text-align: right;
+}
+
+/*
+ * Bootstrap select
+ */
+/*.bootstrap-select .bs-searchbox, .bootstrap-select .bs-actionsbox, .bootstrap-select .bs-donebutton {
+    padding: 0px 0px 5px 9px !important;
+}*/

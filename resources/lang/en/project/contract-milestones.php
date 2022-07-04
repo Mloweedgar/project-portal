@@ -1,0 +1,58 @@
+<?php
+
+return [
+    /*
+    |--------------------------------------------------------------------------
+    | Contract milestones Language Lines
+    |--------------------------------------------------------------------------
+    */
+    'add_group' => 'Add milestone',
+    'milestone' => 'Milestone',
+    'milestone-name' => 'Name',
+    'milestone-type' => 'Type of milestone',
+    'milestone-date' => 'Date',
+    'milestone-deadline' => 'Deadline',
+    'milestone-description' => 'Description',
+    'milestone-description-placeholder' => 'Add description',
+    'milestone-responsible' =>  'Responsible',
+    'milestone-responsible-placeholder' =>  'Add Responsible',
+    'milestone-responsibility' => 'Responsibility',
+    'milestone-responsibility-placeholder' => 'Add Responsibility',
+    'milestone-success' => 'The milestone has been successfully saved',
+    'milestone-delete' => 'The milestone has been successfully deleted',
+    'milestone_delete_confirm' => 'Please, confirm if you want to delete the selected milestone',
+    'board_approval' => 'Project Board approval',
+    'commencement_diligence_study' => 'Commencement of due diligence study',
+    'procurement_start_date' => 'Procurement start date',
+    'date_award' => 'Date of award',
+    'commencement_construction_development' => 'Commencement of construction or development',
+    'completion_construction_development' => 'Completion of construction or development',
+    'comissioning' => 'Commissioning',
+    'project_approval' => 'Project approval date',
+    'commitment_date' => 'Commitment date',
+    'disbursement_date' => 'Disbursement date',
+    'proposal_received' => 'Project proposal received',
+    'proposal_screened' => 'Project proposal screened',
+    'proposal_enters_list_published' => 'Project proposal enters list of published projects pipeline',
+    'transactions_advisors_appointed' => 'Transaction Advisors appointed',
+    'feasibility_study_approved' => 'Project feasibility study approved',
+    'obc_compliance_certificate' => 'OBC compliance certificate issued',
+    'fec_approval_obc' => 'FEC approval for OBC',
+    'eoi' => 'EOI',
+    'rfp' => 'RFP',
+    'rfq' => 'RFQ',
+    'award' => 'Award',
+    'fbc_compliance_certificate' => 'FBC compliance certificate issued',
+    'fec_approval_fbc' => 'FEC approval for FBC',
+    'commercial_close' => 'Commercial close',
+    'financial_close' => 'Financial close',
+    'beginning_construction_development' => 'Beginning of construction or development',
+    'commissioning_project' => 'Commissioning of project',
+    'contract_expiry' => 'Expiry of contract',
+    'national_priority_list' => 'Enters national priority list',
+    'construction_started' => 'Construction started',
+    'construction_completed' => 'Construction completed',
+    'feasibility_starts' => 'Feasibility study starts',
+    'selection_preferred_bidder' => 'Selection of preferred bidder',
+    'milestone_category' => 'Category'
+];

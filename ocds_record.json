@@ -1,0 +1,485 @@
+{
+    "uri": "http:\/\/www.contratosabiertos.cdmx.gob.mx\/api\/contrato\/OCDS-87SD3T-AD-SF-DRM-063-2015",
+    "version": "1.1",
+    "publishedDate": "2017-12-05T00:00:00-06:00",
+    "publisher": {
+        "scheme": "http:\/\/www.contratosabiertos.cdmx.gob.mx",
+        "name": "CDMX-SEFIN",
+        "uri": "http:\/\/www.finanzas.df.gob.mx\/",
+        "uid": "0901"
+    },
+    "records": [
+        {
+            "ocid": "ocds-12123sad-31",
+            "releases": [
+                {
+                    "ocid": "ocds-12123sad-31",
+                    "id": "1",
+                    "date": "2017-12-05T00:00:00-06:00",
+                    "tag": ["implementation"],
+                    "sector": ["Transport"],
+                    "state": ["Anambra", "Cross River"],
+                    "sponsoringAgency": "Federal Ministry of Agriculture and Rural Development",
+                    "initiationType": "tender",
+                    "budget": {
+                        "type": "indicative",
+                        "amount": {
+                            "value": "56.0",
+                            "currency": "USD"
+                        },
+                        "localAmount": {
+                            "value": "51151.0",
+                            "currency": "NGN"
+                        }
+                    },
+                    "announcements": [
+                        {
+                            "id": "1",
+                            "name": "",
+                            "description": "",
+                            "datePublished": "",
+                            "documents": [
+                                {
+                                    "id": "1",
+                                    "name": "document.png",
+                                    "url": "http...",
+                                    "format": "",
+                                    "size": "",
+                                    "extension": "",
+                                    "datePublished": "",
+                                    "dateModified": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "development": {
+                        "basicProjectInformation": {
+                            "projectNeed": {
+                                "description": "",
+                                "documents": [
+                                    {
+                                        "id": "1",
+                                        "name": "document.png",
+                                        "url": "http...",
+                                        "format": "",
+                                        "size": "",
+                                        "extension": "",
+                                        "datePublished": "",
+                                        "dateModified": ""
+                                    }
+                                ]
+                            },
+                            "descriptOfAsset": {
+                                "description": "",
+                                "documents": [
+                                    {
+                                        "id": "1",
+                                        "name": "document.png",
+                                        "url": "http...",
+                                        "format": "",
+                                        "size": "",
+                                        "extension": "",
+                                        "datePublished": "",
+                                        "dateModified": ""
+                                    }
+                                ]
+                            },
+                            "descriptOfServices": {
+                                "description": "",
+                                "documents": [
+                                    {
+                                        "id": "1",
+                                        "name": "document.png",
+                                        "url": "http...",
+                                        "format": "",
+                                        "size": "",
+                                        "extension": "",
+                                        "datePublished": "",
+                                        "dateModified": ""
+                                    }
+                                ]
+                            },
+                            "rationaleForSelectionOfPPPModel": {
+                                "description": "",
+                                "documents": [
+                                    {
+                                        "id": "1",
+                                        "name": "document.png",
+                                        "url": "http...",
+                                        "format": "",
+                                        "size": "",
+                                        "extension": "",
+                                        "datePublished": "",
+                                        "dateModified": ""
+                                    }
+                                ]
+                            },
+                            "stakeholderConsultations": {
+                                "description": "",
+                                "documents": []
+                            },
+                            "projectSummaryDocument": {
+                                "description": "",
+                                "documents": [
+                                    {
+                                        "id": "1",
+                                        "name": "document.png",
+                                        "url": "http...",
+                                        "format": "",
+                                        "size": "",
+                                        "extension": "",
+                                        "datePublished": "",
+                                        "dateModified": ""
+                                    }
+                                ]
+                            }
+                        },
+                        "milestones": [
+                            {
+                                "id": "1",
+                                "name": "",
+                                "state": "accomplished",
+                                "description": "",
+                                "date": ""
+                            }
+                        ]
+                    },
+                    "procurement": {
+                        "basicProjectInformation": {
+                            "projectNeed": {
+                                "description": "",
+                                "documents": [
+                                    {
+                                        "id": "1",
+                                        "name": "document.png",
+                                        "url": "http...",
+                                        "format": "",
+                                        "size": "",
+                                        "extension": "",
+                                        "datePublished": "",
+                                        "dateModified": ""
+                                    }
+                                ]
+                            },
+                            "descriptOfAsset": {
+                                "description": "",
+                                "documents": [
+                                    {
+                                        "id": "1",
+                                        "name": "document.png",
+                                        "url": "http...",
+                                        "format": "",
+                                        "size": "",
+                                        "extension": "",
+                                        "datePublished": "",
+                                        "dateModified": ""
+                                    }
+                                ]
+                            },
+                            "descriptOfServices": {
+                                "description": "",
+                                "documents": [
+                                    {
+                                        "id": "1",
+                                        "name": "document.png",
+                                        "url": "http...",
+                                        "format": "",
+                                        "size": "",
+                                        "extension": "",
+                                        "datePublished": "",
+                                        "dateModified": ""
+                                    }
+                                ]
+                            },
+                            "rationaleForSelectionOfPPPModel": {
+                                "description": "",
+                                "documents": [
+                                    {
+                                        "id": "1",
+                                        "name": "document.png",
+                                        "url": "http...",
+                                        "format": "",
+                                        "size": "",
+                                        "extension": "",
+                                        "datePublished": "",
+                                        "dateModified": ""
+                                    }
+                                ]
+                            },
+                            "stakeholderConsultations": {
+                                "description": "",
+                                "documents": []
+                            },
+                            "projectSummaryDocument": {
+                                "description": "",
+                                "documents": [
+                                    {
+                                        "id": "1",
+                                        "name": "document.png",
+                                        "url": "http...",
+                                        "format": "",
+                                        "size": "",
+                                        "extension": "",
+                                        "datePublished": "",
+                                        "dateModified": ""
+                                    }
+                                ]
+                            }
+                        },
+                        "milestones": [
+                            {
+                                "id": "1",
+                                "name": "",
+                                "state": "accomplished",
+                                "description": "",
+                                "date": ""
+                            }
+                        ],
+                        "procurementDocuments": [
+                            {
+                                "id": "2",
+                                "name": "",
+                                "description": "",
+                                "documents": [
+                                    {
+                                        "id": "1",
+                                        "name": "document.png",
+                                        "url": "http...",
+                                        "format": "",
+                                        "size": "",
+                                        "extension": "",
+                                        "datePublished": "",
+                                        "dateModified": ""
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "implementation": {
+                        "basicProjectInformation": {
+                            "projectNeed": {
+                                "description": "",
+                                "documents": [
+                                    {
+                                        "id": "1",
+                                        "name": "document.png",
+                                        "url": "http...",
+                                        "format": "",
+                                        "size": "",
+                                        "extension": "",
+                                        "datePublished": "",
+                                        "dateModified": ""
+                                    }
+                                ]
+                            },
+                            "descriptOfAsset": {
+                                "description": "",
+                                "documents": [
+                                    {
+                                        "id": "1",
+                                        "name": "document.png",
+                                        "url": "http...",
+                                        "format": "",
+                                        "size": "",
+                                        "extension": "",
+                                        "datePublished": "",
+                                        "dateModified": ""
+                                    }
+                                ]
+                            },
+                            "descriptOfServices": {
+                                "description": "",
+                                "documents": [
+                                    {
+                                        "id": "1",
+                                        "name": "document.png",
+                                        "url": "http...",
+                                        "format": "",
+                                        "size": "",
+                                        "extension": "",
+                                        "datePublished": "",
+                                        "dateModified": ""
+                                    }
+                                ]
+                            },
+                            "rationaleForSelectionOfPPPModel": {
+                                "description": "",
+                                "documents": [
+                                    {
+                                        "id": "1",
+                                        "name": "document.png",
+                                        "url": "http...",
+                                        "format": "",
+                                        "size": "",
+                                        "extension": "",
+                                        "datePublished": "",
+                                        "dateModified": ""
+                                    }
+                                ]
+                            },
+                            "stakeholderConsultations": {
+                                "description": "",
+                                "documents": []
+                            },
+                            "projectSummaryDocument": {
+                                "description": "",
+                                "documents": [
+                                    {
+                                        "id": "1",
+                                        "name": "document.png",
+                                        "url": "http...",
+                                        "format": "",
+                                        "size": "",
+                                        "extension": "",
+                                        "datePublished": "",
+                                        "dateModified": ""
+                                    }
+                                ]
+                            }
+                        },
+                        "milestones": [
+                            {
+                                "id": "1",
+                                "name": "",
+                                "state": "accomplished",
+                                "description": "",
+                                "date": ""
+                            }
+                        ],
+                        "procurementDocuments": [
+                            {
+                                "id": "2",
+                                "name": "",
+                                "description": "",
+                                "documents": [
+                                    {
+                                        "id": "1",
+                                        "name": "document.png",
+                                        "url": "http...",
+                                        "format": "",
+                                        "size": "",
+                                        "extension": "",
+                                        "datePublished": "",
+                                        "dateModified": ""
+                                    }
+                                ]
+                            }
+                        ],
+                        "privateParties": [
+                            {
+                                "id": "1",
+                                "name": "",
+                                "nameRepresentative": "",
+                                "address": "",
+                                "phone": "",
+                                "fax": "",
+                                "email": "",
+                                "description": "",
+                                "facebook": "",
+                                "twitter": "",
+                                "instagram": "",
+                                "url": "",
+                                "datePublished": "",
+                                "dateModified": ""
+                            }
+                        ],
+                        "contractInformation": {
+                            "redactedPPPAgreement": [
+                                {
+                                    "id": "",
+                                    "name": "",
+                                    "description": "",
+                                    "documents": []
+                                }
+                            ],
+                            "financialStructure": [
+                                {
+                                    "id": "",
+                                    "name": "",
+                                    "description": "",
+                                    "documents": []
+                                }
+                            ],
+                            "risks": {
+                                "items": [
+                                    {
+                                        "id": "",
+                                        "name": "",
+                                        "description": "",
+                                        "allocation": "",
+                                        "mitigation": ""
+                                    }
+                                ],
+                                "documents": []
+                            },
+                            "governmentSupport": [
+                                {
+                                    "id": "",
+                                    "name": "",
+                                    "description": "",
+                                    "documents": []
+                                }
+                            ],
+                            "tariffs": [
+                                {
+                                    "id": "",
+                                    "name": "",
+                                    "description": "",
+                                    "documents": []
+                                }
+                            ],
+                            "terminationProvisions": [
+                                {
+                                    "id": "",
+                                    "party": "",
+                                    "name": "",
+                                    "description": "",
+                                    "payment": "",
+                                    "documents": []
+                                }
+                            ],
+                            "renegotiations": [
+                                {
+                                    "id": "",
+                                    "name": "",
+                                    "description": "",
+                                    "documents": []
+                                }
+                            ]
+                        },
+                        "performanceInformation": {
+                            "keyPerformanceIndicators": [
+                                {
+                                    "id": "",
+                                    "type": "",
+                                    "year": "",
+                                    "target": "",
+                                    "achievement": ""
+                                }
+                            ],
+                            "performanceFailures": [
+                                {
+                                    "id": "",
+                                    "name": "",
+                                    "category": "",
+                                    "numberOfEvents": "",
+                                    "penaltyType": "",
+                                    "penaltyImposed": "",
+                                    "penaltyPaid": ""
+                                }
+                            ],
+                            "performanceAssessments": [
+                                {
+                                    "id": "",
+                                    "name": "",
+                                    "description": "",
+                                    "documents": []
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+  "/js/app.js": "/js/app.js",
+  "/css/app.css": "/css/app.css",
+  "/js/bootstrap.js": "/js/bootstrap.js",
+  "/js/jquery-3.2.0.min.js": "/js/jquery-3.2.0.min.js",
+  "/back/plugins/dropzone/dropzone.js": "/back/plugins/dropzone/dropzone.js",
+  "/js/material.min.js": "/js/material.min.js",
+  "/js/custom.js": "/js/custom.js",
+  "/back/plugins/jquery-inputmask/jquery.inputmask.bundle.js": "/back/plugins/jquery-inputmask/jquery.inputmask.bundle.js",
+  "/back/plugins/bootstrap-material-datetimepicker/bootstrap-material-datetimepicker.js": "/back/plugins/bootstrap-material-datetimepicker/bootstrap-material-datetimepicker.js",
+  "/back/plugins/bootstrap-colorpicker/bootstrap-colorpicker.js": "/back/plugins/bootstrap-colorpicker/bootstrap-colorpicker.js",
+  "/back/css/libs.css": "/back/css/libs.css",
+  "/back/js/libs.js": "/back/js/libs.js"
+}

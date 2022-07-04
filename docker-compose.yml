@@ -1,0 +1,26 @@
+version: '3.1'
+services:
+  project-portal:
+    build: .
+    image: project-portal
+    command: 'php artisan serve --host=0.0.0.0'
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+  db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: ${DB_USERNAME}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+      MYSQL_DATABASE: ${DB_DATABASE}
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+
+
+volumes:
+  db_data:

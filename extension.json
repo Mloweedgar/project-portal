@@ -1,0 +1,6 @@
+{
+  "name": "Transparency PPP extension",
+  "description": "Transparency PPP extension.",
+  "compatibility": ">=1.1.0",
+  "dependencies": []
+}

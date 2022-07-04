@@ -1,0 +1,71 @@
+.table-modal thead tr th {
+  border: 2px solid #eee !important;
+  vertical-align: middle;
+  text-align: center;
+}
+.table-modal thead tr th:first-child {
+  text-align: left;
+}
+.table-modal tbody tr td, .table tbody tr th {
+  border: 2px solid #eee !important;
+  vertical-align: middle;
+}
+.table-modal tbody .ta {
+  text-align: center;
+}
+
+.table-modal thead tr {
+  height: 60px;
+  vertical-align: middle;
+
+}
+
+.table-modal tbody tr, .table tbody tr {
+  height: 60px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.boxShadow {
+  -moz-box-shadow:0px 0px 10px rgba(255,0,0,0.7);
+  -webkit-box-shadow:0px 0px 10px rgba(255,0,0,0.7);
+  box-shadow:0px 0px 10px rgba(255,0,0,0.7);
+}
+.record{
+  /*background-color: red;*/
+}
+.editabletooltip{
+  vertical-align: middle;
+
+}
+.content-metrics .sub-title{
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+.no-cursor{
+  cursor:default;
+}
+.table-modal .edit{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.table-modal .edit-btn button{
+  box-shadow: none !important;
+  padding: 0;
+  padding-left: 5px;
+}
+
+
+.table-modal .edit-btn:hover{
+  color:red !important;
+
+}
+.table-modal .head-col{
+  margin-top: 5px;
+}
+
+.title-table{
+  font-size: 16px;
+  text-transform: capitalize;
+}

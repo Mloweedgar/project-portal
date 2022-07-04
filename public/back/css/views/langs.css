@@ -1,0 +1,22 @@
+.form-inline button{
+    margin:0 20px;
+}
+
+.row .card [class*="col-"]{
+    margin-bottom: 20px;
+    padding-bottom:10px;
+}
+
+.form-group .form-line.empty:after{
+    transition: 0.25s ease-in;
+    border-bottom: 1px solid #e62b1d;
+}
+
+.form-group .form-line.empty{
+    transition: 0.25s ease-in;
+    border-bottom: 2px solid #e62b1d;
+}
+
+.modal-body .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){
+  width:100%;
+}

@@ -1,0 +1,682 @@
+{
+    "properties": {
+        "ocid": {},
+        "id": {},
+        "date": {},
+        "tag": {},
+        "initiationType": {},
+        "stage": {
+            "title": "Stage",
+            "type": "string",
+            "enum": [
+                "pre-procurement",
+                "procurement",
+                "post-procurement",
+                "development",
+                "procurement",
+                "implementation",
+                "post-appraisal",
+                "post-contract"
+            ]
+        },
+        "sectors": {
+            "title": "Sectors",
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "uniqueItems": true
+        },
+        "locations": {
+            "title": "Locations",
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "uniqueItems": true
+        },
+        "sponsoringAgency": {
+            "title": "Sponsoring Agency",
+            "type": "string"
+        },
+        "value": {
+            "title": "Project Value",
+            "type": "object",
+            "$ref": "#/definitions/ProjectValue"
+        },
+        "announcements": {
+            "title": "Announcements",
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/Element"
+            }
+        },
+        "development": {
+            "title": "Development Stage",
+            "type": "object",
+            "$ref": "#/definitions/DevelopmentStage"
+        },
+        "procurement": {
+            "title": "Development Stage",
+            "type": "object",
+            "$ref": "#/definitions/ProcurementStage"
+        },
+        "implementation": {
+            "title": "Implementation Stage",
+            "type": "object",
+            "$ref": "#/definitions/ImplementationStage"
+        }
+    },
+    "required": [
+        "stage",
+        "sectors",
+        "locations",
+        "sponsoringAgency",
+        "value"
+    ],
+    "definitions": {
+        "ProjectValue": {
+            "title": "Project Value",
+            "type": "object",
+            "properties": {
+                "type": {
+                    "title": "Value Type",
+                    "type": "string",
+                    "enum": [
+                        "indicative",
+                        "final"
+                    ]
+                },
+                "baseValue": {
+                    "title": "Base value",
+                    "type": "object",
+                    "$ref": "#/definitions/Value"
+                },
+                "localValue": {
+                    "title": "Local value",
+                    "type": "object",
+                    "$ref": "#/definitions/Value"
+                }
+            },
+            "required": [
+                "type",
+                "baseValue",
+                "localValue"
+            ]
+        },
+        "Element": {
+            "title": "Element",
+            "type": "object",
+            "properties": {
+                "id": {
+                    "title": "ID",
+                    "type": "number"
+                },
+                "name": {
+                    "title": "Name",
+                    "type": "string"
+                },
+                "description": {
+                    "title": "Description",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "datePublished": {
+                    "title": "Date published",
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "format": "date-time"
+                },
+                "documents": {
+                    "title": "Documents",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Document"
+                    }
+                }
+            },
+            "required": [
+                "id",
+                "name"
+            ]
+        },
+        "DevelopmentStage": {
+            "title": "Development Stage",
+            "type": "object",
+            "properties": {
+                "basicProjectInformation": {
+                    "title": "Basic project information",
+                    "$ref": "#/definitions/BasicProjectInformation"
+                },
+                "milestones": {
+                    "title": "Milestones",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Milestone"
+                    }
+                }
+            },
+            "required": [
+				"basicProjectInformation"
+			]
+        },
+        "ProcurementStage": {
+            "title": "Procurement Stage",
+            "type": "object",
+            "properties": {
+                "basicProjectInformation": {
+                    "title": "Basic project information",
+                    "$ref": "#/definitions/BasicProjectInformation"
+                },
+                "milestones": {
+                    "title": "Milestones",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Milestone"
+                    }
+                },
+                "procurementDocuments": {
+                    "title": "Procurement Documents",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Element"
+                    }
+                }
+            },
+            "required": [
+				"basicProjectInformation"
+			]
+        },
+        "ImplementationStage": {
+            "title": "Implementation Stage",
+            "type": "object",
+            "properties": {
+                "basicProjectInformation": {
+                    "title": "Basic project information",
+                    "$ref": "#/definitions/BasicProjectInformation"
+                },
+                "milestones": {
+                    "title": "Milestones",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Milestone"
+                    }
+                },
+                "procurementDocuments": {
+                    "title": "Procurement documents",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Element"
+                    }
+                },
+                "privateParties": {
+                    "title": "Private parties",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/PrivateParty"
+                    }
+                },
+                "contractInformation": {
+                    "title": "Contract summary",
+                    "$ref": "#/definitions/ContractInformationSection"
+                },
+                "performanceInformation": {
+                    "title": "Performance information",
+                    "$ref": "#/definitions/PerformanceInformationSection"
+                }
+            },
+            "required": [
+				"basicProjectInformation"
+			]
+        },
+        "BasicProjectInformation": {
+            "title": "Basic project information",
+            "type": [
+				"object",
+				"array"
+			],
+            "properties": {
+                "projectNeed": {
+                    "title": "Project need",
+                    "$ref": "#/definitions/BasicProjectInformationItem"
+                },
+                "descriptionOfAsset": {
+                    "title": "Description of asset",
+                    "$ref": "#/definitions/BasicProjectInformationItem"
+                },
+                "descriptionOfServices": {
+                    "title": "Description of services",
+                    "$ref": "#/definitions/BasicProjectInformationItem"
+                },
+                "rationalePPP": {
+                    "title": "Rationale for selection of PPP model",
+                    "$ref": "#/definitions/BasicProjectInformationItem"
+                },
+                "transactionAdvisor": {
+                    "title": "Name and deliverables of transaction advisor",
+                    "$ref": "#/definitions/BasicProjectInformationItem"
+                },
+                "unsolicitedProject": {
+                    "title": "Unsolicited project - Rationale",
+                    "$ref": "#/definitions/BasicProjectInformationItem"
+                },
+                "stakeholderConsultations": {
+                    "title": "Stakeholder consultations",
+                    "$ref": "#/definitions/BasicProjectInformationItem"
+                },
+                "projectSummaryDocument": {
+                    "title": "Project summary documment",
+                    "$ref": "#/definitions/BasicProjectInformationItem"
+                }
+            }
+        },
+        "BasicProjectInformationItem": {
+            "title": "Basic project information item",
+            "type": "object",
+            "properties": {
+                "description": {
+                    "title": "Description",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "documents": {
+                    "title": "Documents",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Document"
+                    }
+                }
+            }
+        },
+        "PrivateParty": {
+            "title": "Private party",
+            "type": "object",
+            "properties": {
+                "id": {
+                    "title": "ID",
+                    "type": "number"
+                },
+                "name": {
+                    "title": "Name",
+                    "type": "string"
+                },
+                "description": {
+                    "title": "Description",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "nameRepresentative": {
+                    "title": "Name of representative",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "address": {
+                    "title": "Address",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "phone": {
+                    "title": "Phone",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "fax": {
+                    "title": "Fax",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "email": {
+                    "title": "E-amil",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "facebook": {
+                    "title": "Facebook",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "twitter": {
+                    "title": "Twitter",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "instagram": {
+                    "title": "Instagram",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "website": {
+                    "title": "Website",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            }
+        },
+        "ContractInformationSection": {
+            "title": "Contract summary section",
+            "type": "object",
+            "properties": {
+                "redactedPPPAgreement": {
+                    "title": "Redacted PPP agreement",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Element"
+                    }
+                },
+                "contractDocuments": {
+                    "title": "Contract documents",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Element"
+                    }
+                },
+                "financialStructure": {
+                    "title": "Financial structure",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Element"
+                    }
+                },
+                "risks": {
+                    "title": "Risks",
+                    "type": "object",
+                    "properties": {
+                        "items": {
+                            "title": "Risk items",
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/Risk"
+                            }
+                        },
+                        "documents": {
+                            "title": "Risk documents",
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/Document"
+                            }
+                        }
+                    }
+                },
+                "governmentSupport": {
+                    "title": "Government support",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Element"
+                    }
+                },
+                "guaranteesOrCommitmentsReceived": {
+                    "title": "Guarantees / Commitments received",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Element"
+                    }
+                },
+                "tariffs": {
+                    "title": "Tariffs",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Element"
+                    }
+                },
+                "terminationProvisions": {
+                    "title": "Termination provisions",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/TerminationProvision"
+                    }
+                },
+                "renegotiations": {
+                    "title": "Renegotiations",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Element"
+                    }
+                },
+                "environmentAndSocialImpact": {
+                    "title": "Environment and Social Impact Assessment Report",
+                    "type": "object",
+                    "properties": {
+                        "description": {
+                            "title": "Description",
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        },
+                        "documents": {
+                            "title": "Documents",
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/Document"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "PerformanceInformationSection": {
+            "title": "Performance information section",
+            "type": "object",
+            "properties": {
+                "keyPerformanceIndicators": {
+                    "title": "Key performance indicators",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/KeyPerformanceIndicator"
+                    }
+                },
+                "performanceFailures": {
+                    "title": "Performance failures",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/PerformanceFailure"
+                    }
+                },
+                "performanceAssessments": {
+                    "title": "Performance assessments",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Element"
+                    }
+                }
+            }
+        },
+        "Risk": {
+            "title": "Risk",
+            "type": "object",
+            "properties": {
+                "id": {
+                    "title": "ID",
+                    "type": "number"
+                },
+                "name": {
+                    "title": "Name",
+                    "type": "string"
+                },
+                "description": {
+                    "title": "Description",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "mitigation": {
+                    "title": "Mitigation",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "allocation": {
+                    "title": "Allocation",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "required": [
+                "id",
+                "name"
+            ]
+        },
+        "TerminationProvision": {
+            "title": "Termination provision",
+            "type": "object",
+            "properties": {
+                "id": {
+                    "title": "ID",
+                    "type": "number"
+                },
+                "name": {
+                    "title": "Name",
+                    "type": "string"
+                },
+                "description": {
+                    "title": "Description",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "partyType": {
+                    "title": "Party type",
+                    "type": "string",
+                    "enum": [
+                        "operator",
+                        "authority"
+                    ]
+                },
+                "payment": {
+                    "title": "Payment",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "documents": {
+                    "title": "Documents",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Document"
+                    }
+                }
+            },
+            "required": [
+                "id",
+                "name"
+            ]
+        },
+        "KeyPerformanceIndicator": {
+            "title": "Key performance indicator",
+            "type": "object",
+            "properties": {
+                "id": {
+                    "title": "ID",
+                    "type": "number"
+                },
+                "type": {
+                    "title": "Type",
+                    "type": "string"
+                },
+                "year": {
+                    "title": "Year",
+                    "type": "number"
+                },
+                "target": {
+                    "title": "Target",
+                    "type": "string"
+                },
+                "achievement": {
+                    "title": "Achievement",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "id",
+                "year",
+                "target",
+                "achievement"
+            ]
+        },
+        "PerformanceFailure": {
+            "title": "Performance failure",
+            "type": "object",
+            "properties": {
+                "id": {
+                    "title": "ID",
+                    "type": "number"
+                },
+                "name": {
+                    "title": "Name",
+                    "type": "string"
+                },
+                "category": {
+                    "title": "Category",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "numberEvents": {
+                    "title": "Number of events",
+                    "type": [
+                        "number",
+                        "null"
+                    ]
+                },
+                "penaltyType": {
+                    "title": "Penalty type",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "penaltyImposed": {
+                    "title": "Penalty imposed",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "penaltyPaid": {
+                    "title": "Penalty paid",
+                    "type": [
+                        "boolean",
+                        "null"
+                    ]
+                }
+            },
+            "required": [
+                "id",
+                "name"
+            ]
+        }
+    }
+}

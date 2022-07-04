@@ -1,0 +1,27 @@
+<?php
+
+return [
+    "title" => "Procurement documents",
+    "group" => "Procurement name",
+    "group-placeholder" => "Add name here",
+    "description" => "Description",
+    "description-placeholder" => "Add description here",
+    "add-group" => "Add new procurement document",
+    "edit-group" => "Edit this procurement",
+    "deleted" => "The selected procurement has been successfully deleted",
+    'success' => 'The procurement has been successfully saved',
+    'delete_confirm' => 'Please, confirm if you want to delete the selected procurement',
+    'request_qualification' => 'Request for qualification',
+    'shortlisted' => 'Short-listed bidders',
+    'proposal' => 'Request for proposal',
+    'award' => 'Award',
+    'project_development' => 'List of project development consultants engaged in the project',
+    'scoping' => 'Scoping report',
+    'feasibility_study_report' => 'Feasibility study report',
+    'environment' => 'Environment and Social Impact Scoping Study',
+    'obc' => 'OBC',
+    'eoi' => 'EOI',
+    'shortlist_evaluation' => 'Short-listed bidders and evaluation summary report',
+    'award_evaluation' => 'Award and evaluation summary report',
+    'value_money' => 'Value for Money report (extracted from FBC)',
+];

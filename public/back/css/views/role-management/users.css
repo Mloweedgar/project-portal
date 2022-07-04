@@ -1,0 +1,46 @@
+.td-projects-section-gray {
+    padding-left: 35px !important;
+    background-color: #eaecef;
+  }
+ .table-modal td {
+    /*padding: 10px 10px 0px !important;*/
+
+    padding-top: 10px !important;
+    padding-right: 10px !important;
+    padding-bottom: 0px !important;
+
+  }
+  .table-modal thead tr th {
+    border: 2px solid #eee !important;
+  }
+  .table-modal tbody tr td, .table tbody tr th {
+    border: 2px solid #eee !important;
+  }
+
+
+  .projects-select {
+    width: 100% !important;
+    border: 2px solid #eee !important;
+  }
+
+  .iti-flag {background-image: url("/back/plugins/intl-tel-input/img/flags.png");}
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    .iti-flag {background-image: url("/back/plugins/intl-tel-input/img/flags@2x.png");}
+  }
+  #modalPermissions .modal-footer button{
+    text-transform: uppercase;
+  }
+  #modalPermissions .modal-footer #btnSaveEdtiUser{
+    display: none;
+  }
+  #modalPermissions .projects-sectors {
+    margin-bottom: 10px;
+  }
+  #prmSectors{
+    margin-top: 10px;
+  }
+  .modalPermissionsMsg {
+    color: red;
+    font-size: 12px;
+  }

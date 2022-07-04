@@ -1,0 +1,154 @@
+[16-Aug-2020 18:08:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/znzppp/public_html/pppportal/public/announcements.php:33) in /home/znzppp/public_html/pppportal/public/announcements.php on line 46
+[17-Aug-2020 08:30:49 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/znzppp/public_html/pppportal/public/announcements.php on line 50
+[19-Mar-2021 06:58:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/Mbstring.php:501
+Stack trace:
+#0 /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Support/Str.php(94): mb_strpos(NULL, '/json')
+#2 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(333): Illuminate\Http\Request->isJson()
+#4 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(361): Illuminate\Http\Request->getInputSource()
+#5 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): I in /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/Mbstring.php on line 501
+[19-Mar-2021 07:43:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/Mbstring.php:501
+Stack trace:
+#0 /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Support/Str.php(94): mb_strpos(NULL, '/json')
+#2 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(333): Illuminate\Http\Request->isJson()
+#4 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(361): Illuminate\Http\Request->getInputSource()
+#5 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): I in /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/Mbstring.php on line 501
+[19-Mar-2021 08:18:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/Mbstring.php:501
+Stack trace:
+#0 /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Support/Str.php(94): mb_strpos(NULL, '/json')
+#2 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(333): Illuminate\Http\Request->isJson()
+#4 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(361): Illuminate\Http\Request->getInputSource()
+#5 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): I in /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/Mbstring.php on line 501
+[19-Mar-2021 08:37:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/Mbstring.php:501
+Stack trace:
+#0 /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Support/Str.php(94): mb_strpos(NULL, '/json')
+#2 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(333): Illuminate\Http\Request->isJson()
+#4 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(361): Illuminate\Http\Request->getInputSource()
+#5 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): I in /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/Mbstring.php on line 501
+[19-Mar-2021 08:37:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/Mbstring.php:501
+Stack trace:
+#0 /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos('application/x-w...', '/json', 0, 'UTF-8')
+#1 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Support/Str.php(94): mb_strpos('application/x-w...', '/json')
+#2 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains('application/x-w...', Array)
+#3 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(333): Illuminate\Http\Request->isJson()
+#4 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(361): Illuminate\Http\Request->getInputSource()
+#5 /home/znzppp/public_html/pppportal/vendor/laravel/ in /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/Mbstring.php on line 501
+[19-Mar-2021 08:45:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/Mbstring.php:501
+Stack trace:
+#0 /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Support/Str.php(94): mb_strpos(NULL, '/json')
+#2 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(333): Illuminate\Http\Request->isJson()
+#4 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(361): Illuminate\Http\Request->getInputSource()
+#5 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): I in /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/Mbstring.php on line 501
+[19-Mar-2021 08:48:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/Mbstring.php:501
+Stack trace:
+#0 /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Support/Str.php(94): mb_strpos(NULL, '/json')
+#2 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(333): Illuminate\Http\Request->isJson()
+#4 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(361): Illuminate\Http\Request->getInputSource()
+#5 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): I in /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/Mbstring.php on line 501
+[19-Mar-2021 08:58:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/Mbstring.php:501
+Stack trace:
+#0 /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Support/Str.php(94): mb_strpos(NULL, '/json')
+#2 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(333): Illuminate\Http\Request->isJson()
+#4 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(361): Illuminate\Http\Request->getInputSource()
+#5 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): I in /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/Mbstring.php on line 501
+[19-Mar-2021 08:58:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/Mbstring.php:501
+Stack trace:
+#0 /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Support/Str.php(94): mb_strpos(NULL, '/json')
+#2 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(333): Illuminate\Http\Request->isJson()
+#4 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(361): Illuminate\Http\Request->getInputSource()
+#5 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): I in /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/Mbstring.php on line 501
+[19-Mar-2021 08:58:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/Mbstring.php:501
+Stack trace:
+#0 /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Support/Str.php(94): mb_strpos(NULL, '/json')
+#2 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(333): Illuminate\Http\Request->isJson()
+#4 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(361): Illuminate\Http\Request->getInputSource()
+#5 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): I in /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/Mbstring.php on line 501
+[19-Mar-2021 08:58:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/Mbstring.php:501
+Stack trace:
+#0 /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Support/Str.php(94): mb_strpos(NULL, '/json')
+#2 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(333): Illuminate\Http\Request->isJson()
+#4 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(361): Illuminate\Http\Request->getInputSource()
+#5 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): I in /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/Mbstring.php on line 501
+[19-Mar-2021 08:58:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/Mbstring.php:501
+Stack trace:
+#0 /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Support/Str.php(94): mb_strpos(NULL, '/json')
+#2 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(333): Illuminate\Http\Request->isJson()
+#4 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(361): Illuminate\Http\Request->getInputSource()
+#5 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): I in /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/Mbstring.php on line 501
+[19-Mar-2021 08:58:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/Mbstring.php:501
+Stack trace:
+#0 /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Support/Str.php(94): mb_strpos(NULL, '/json')
+#2 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(333): Illuminate\Http\Request->isJson()
+#4 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(361): Illuminate\Http\Request->getInputSource()
+#5 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): I in /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/Mbstring.php on line 501
+[19-Mar-2021 08:58:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/Mbstring.php:501
+Stack trace:
+#0 /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Support/Str.php(94): mb_strpos(NULL, '/json')
+#2 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(333): Illuminate\Http\Request->isJson()
+#4 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(361): Illuminate\Http\Request->getInputSource()
+#5 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): I in /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/Mbstring.php on line 501
+[19-Mar-2021 08:58:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/Mbstring.php:501
+Stack trace:
+#0 /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Support/Str.php(94): mb_strpos(NULL, '/json')
+#2 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(333): Illuminate\Http\Request->isJson()
+#4 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(361): Illuminate\Http\Request->getInputSource()
+#5 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): I in /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/Mbstring.php on line 501
+[19-Mar-2021 08:58:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/Mbstring.php:501
+Stack trace:
+#0 /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Support/Str.php(94): mb_strpos(NULL, '/json')
+#2 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(333): Illuminate\Http\Request->isJson()
+#4 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(361): Illuminate\Http\Request->getInputSource()
+#5 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): I in /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/Mbstring.php on line 501
+[19-Mar-2021 09:38:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/Mbstring.php:501
+Stack trace:
+#0 /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Support/Str.php(94): mb_strpos(NULL, '/json')
+#2 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(333): Illuminate\Http\Request->isJson()
+#4 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(361): Illuminate\Http\Request->getInputSource()
+#5 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): I in /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/Mbstring.php on line 501
+[19-Mar-2021 09:53:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/Mbstring.php:501
+Stack trace:
+#0 /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Support/Str.php(94): mb_strpos(NULL, '/json')
+#2 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(333): Illuminate\Http\Request->isJson()
+#4 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(361): Illuminate\Http\Request->getInputSource()
+#5 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): I in /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/Mbstring.php on line 501
+[19-Mar-2021 12:25:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/Mbstring.php:501
+Stack trace:
+#0 /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Support/Str.php(94): mb_strpos(NULL, '/json')
+#2 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(333): Illuminate\Http\Request->isJson()
+#4 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(361): Illuminate\Http\Request->getInputSource()
+#5 /home/znzppp/public_html/pppportal/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): I in /home/znzppp/public_html/pppportal/vendor/symfony/polyfill-mbstring/Mbstring.php on line 501
